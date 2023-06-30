@@ -28,4 +28,7 @@ public class Reservation {
 
     @Column(name = "end_date")
     private LocalDate endDate;
+
+    public void setTotalPrice(double totalPrice) {
+    }
 }
