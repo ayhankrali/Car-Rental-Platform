@@ -7,6 +7,18 @@ Days should be considered as a difference in dates.
 
 
 
+There must be an opportunity to:
+- creating a reservation, 
+- making a reservation by ID,
+- making reservations for a particular user,
+- making reservations for a particular car, 
+- Making a reservation for a certain period (here you will have to use @Query, whether native or not you decide).
+- delete reservation by id.
+- change of the car in the reservation
+- Cancellation of the dates of the reservation
+
+
+
 
 
 
