@@ -3,6 +3,8 @@ package converter;
 import dto.ReservationDTO;
 import entity.Reservation;
 
+import java.util.List;
+
 public class ReservationConverter {
     public static Reservation fromDTO(ReservationDTO reservationDTO) {
         Reservation reservation = new Reservation();
@@ -24,4 +26,7 @@ public class ReservationConverter {
         return reservationDTO;
     }
 
+    public static List<ReservationDTO> toDTOList(List<Reservation> reservations) {
+        return null;
+    }
 }
