@@ -6,7 +6,7 @@ import repository.UserRepository;
 
 @Service
 public class UserService {
-    private UserRepository userRepository;
+    private static UserRepository userRepository;
 
     public UserService(UserRepository userRepository) {
         this.userRepository = userRepository;
