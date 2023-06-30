@@ -2,7 +2,9 @@ package entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;
+import lombok.Setter;
 
+@Setter
 @Getter
 @Entity
 @Table(name = "users")
@@ -18,5 +20,10 @@ public class User {
 
     private String password;
 
+    public void setName(String name) {
+    }
+
+    public void setPassword(String password) {
+    }
 }
 

@@ -7,7 +7,6 @@ import lombok.Setter;
 import java.time.LocalDate;
 @Getter
 @Setter
-
 @Entity
 @Table(name = "reservations")
 public class Reservation {
@@ -30,5 +29,9 @@ public class Reservation {
     private LocalDate endDate;
 
     public void setTotalPrice(double totalPrice) {
+    }
+
+    public double getTotalPrice() {
+        return this.getTotalPrice();
     }
 }
