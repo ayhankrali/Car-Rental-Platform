@@ -35,12 +35,19 @@ Reservation Management:
 
 CREATING NEW RESERVATIONS
 
+
 Retrieving reservations by ID
+
 Retrieving reservations for a specific user
+
 Retrieving reservations for a specific car
+
 Retrieving reservations within a specific period
+
 Deleting reservations by ID
+
 Changing the car in a reservation
+
 Changing the dates of a reservation
 
 
