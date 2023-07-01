@@ -59,6 +59,33 @@ H2 Database (for development, can be easily switched to a different database)
 
 
 
+DATABASE SCHEMA
+
+The database schema for the Car Rental Platform is as follows:
+
+Users
+
+- id (PK)
+- name
+- email
+- password
+
+Cars
+- id (PK)
+- brand
+- model
+- seats
+- dailyRentalPrice
+
+Reservations
+- id (PK)
+- userId (FK to Users.id)
+- carId (FK to Cars.id)
+- startDate
+- endDate
+
+
+
 
 
 
