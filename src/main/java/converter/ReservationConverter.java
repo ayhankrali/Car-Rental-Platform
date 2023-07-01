@@ -2,9 +2,10 @@ package converter;
 
 import dto.ReservationDTO;
 import entity.Reservation;
+import jakarta.persistence.Converter;
 
 import java.util.List;
-
+@Converter
 public class ReservationConverter {
     public static Reservation fromDTO(ReservationDTO reservationDTO) {
         Reservation reservation = new Reservation();

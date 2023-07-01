@@ -2,7 +2,9 @@ package converter;
 
 import dto.UserDTO;
 import entity.User;
+import jakarta.persistence.Converter;
 
+@Converter
 public class UserConverter {
     public static User fromDTO(UserDTO userDTO) {
         User user = new User();

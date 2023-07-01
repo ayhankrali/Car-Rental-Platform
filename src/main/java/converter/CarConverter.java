@@ -2,7 +2,9 @@ package converter;
 
 import dto.CarDTO;
 import entity.Car;
+import jakarta.persistence.Converter;
 
+@Converter
 public class CarConverter {
     public static Car fromDTO(CarDTO carDTO) {
         Car car = new Car();
