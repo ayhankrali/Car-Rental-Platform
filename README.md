@@ -4,7 +4,7 @@ Welcome to the Car Rental Platform, a Java-based application for managing car re
 
 FEATURES
 
-.User Management:
+User Management:
 
 User registration
 
